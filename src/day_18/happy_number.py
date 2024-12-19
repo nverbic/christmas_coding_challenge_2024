@@ -35,7 +35,7 @@ class HappyNumber:
 
         while n != 1:
             for digit in str(n):
-                sum_squares += int(digit)*int(digit)
+                sum_squares += int(digit)**2
 
             if sum_squares == 1:
                 return True
